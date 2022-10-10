@@ -17,11 +17,16 @@ h1 {
 h3 { 
   font-family: Montserrat, Roboto, Geneva;
   color:rgb(6, 6, 6);
+  text-align: center;
 }
 
 /* This is the styling for the article tag, as you can see  I have set the gradier to be linear going to the right side and have set the colors for the gradient as well */
 article {
   background-image: linear-gradient(to right, rgb(98, 91, 200), rgb(201, 67, 167));
+  border-radius: 0.75em;
+  padding: 0.75em;
+  margin: 30px;
+  box-shadow: 10px 10px 10px black;
 }
 
 /* This is the styling for the header tag, I added a background image, and added some color to the text */
@@ -29,10 +34,25 @@ header {
   background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
   background-size: cover;
   color:white;
+  border-radius: 0.75em;
+  padding: 0.75em;
+  margin: 30px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.subheading {
+  border-bottom: solid 5px whitesmoke;
 }
 
 /* link styles. the light sea green is very nice touch! */
 a {
   color:lightseagreen;
   text-decoration: none;
+}
+
+img {
+  display: block;
+  height: 20%;
+  border: lightseagreen;
+  border-radius: 0.75em;
 }
