@@ -1,0 +1,38 @@
+/* This sets the font for the page  */
+* {
+  font-family: Arial;
+}
+
+/* This sets the p tag colors to azure, I thought that this would look nicer and be a bit more visible */
+p {
+  color:azure;
+}
+/* This is the styling for the h1 tag, as you can see it it sets the color to azure and the font-family has been set */
+h1 {
+  font-family: Montserrat, Roboto, Geneva;
+  color:azure;
+
+}
+/* This is the styling for the h3 tag, it includes the font famil and the text color */
+h3 { 
+  font-family: Montserrat, Roboto, Geneva;
+  color:rgb(6, 6, 6);
+}
+
+/* This is the styling for the article tag, as you can see  I have set the gradier to be linear going to the right side and have set the colors for the gradient as well */
+article {
+  background-image: linear-gradient(to right, rgb(98, 91, 200), rgb(201, 67, 167));
+}
+
+/* This is the styling for the header tag, I added a background image, and added some color to the text */
+header {
+  background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
+  background-size: cover;
+  color:white;
+}
+
+/* link styles. the light sea green is very nice touch! */
+a {
+  color:lightseagreen;
+  text-decoration: none;
+}
